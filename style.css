@@ -1,0 +1,39 @@
+body{
+    margin: 0%;
+}
+.cl-lateral{
+    background-color: black;
+    text-align: center;
+    height: 3000px;
+    width: 40%;
+}
+.alumni-sans-sc-uniquifier{
+  font-family: "Alumni Sans SC", sans-serif;
+  font-size: 400%;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: #bf9663;
+  margin-left: 10% ;
+  text-align: left;
+}
+.cl-minha-foto{
+    Text-align: center;
+    margin-top: 10%;
+    border: solid #D97016 4px;
+    border-radius: 50%;
+}
+.CL-P{
+    font-size: 150%;
+    text-align: left;
+    margin-left: 10%;
+    color: #bf9663;
+}
+.cl-subtitulo{
+    font-family: "Alumni Sans SC", sans-serif;
+    color: #D97016;
+    margin-left: 10% ;
+    text-align: left;
+    font-size: 270% ;
+
+}
