@@ -4,7 +4,7 @@ body{
 .cl-lateral{
     background-color: black;
     text-align: center;
-    height: 3000px;
+    height: 3400px;
     width: 40%;
 }
 .alumni-sans-sc-uniquifier{
@@ -40,7 +40,7 @@ body{
 }
 .cl-corpo{
     margin-top: 0%;
-    height: 3000px;
+    height: 3400px;
     width: 60%;
     background-color: #adadad;
     background-image: url("https://www.transparenttextures.com/patterns/absurdity.png");
@@ -90,4 +90,24 @@ li{
   margin-left: 10% ;
   text-align: left;
   margin-bottom: 0%;
+}
+.cl-subtitulo2{
+    font-family: "Alumni Sans SC", sans-serif;
+    color: black;
+    margin-left: 10% ;
+    text-align: left;
+    font-size: 270% ;
+}
+.cl-img-prj{
+margin-left: 10%;
+border: solid 4px #D97016;
+display: block;
+margin-bottom: 10px;
+}
+.CL-P2{
+    font-family: "Alumni Sans SC", sans-serif;
+    font-size: 150%;
+    text-align: left;
+    margin-left: 10%;
+    color: black;
 }
