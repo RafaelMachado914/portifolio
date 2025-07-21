@@ -1,77 +1,91 @@
-html{
+html {
     height: 100%;
 }
-body{
+
+body {
     margin: 0%;
     height: 100%;
 }
-.cl-lateral{
+
+.cl-lateral {
     background-color: black;
     text-align: center;
     height: 4300px;
     width: 40%;
+    padding-right: 8px;
 }
-.alumni-sans-sc-uniquifier{
-  font-family: "Alumni Sans SC", sans-serif;
-  font-size: 400%;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  color: #bf9663;
-  margin-left: 10% ;
-  text-align: left;
+
+.alumni-sans-sc-uniquifier {
+    font-family: "Alumni Sans SC", sans-serif;
+    font-size: 400%;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: #bf9663;
+    margin-left: 10%;
+    text-align: left;
 }
-.cl-minha-foto{
+
+.cl-minha-foto {
     Text-align: center;
     margin-top: 10%;
     border: solid #D97016 4px;
     border-radius: 50%;
+    width: 100%;
 }
-.CL-P{
+
+.CL-P {
     font-family: "Alumni Sans SC", sans-serif;
     font-size: 150%;
     text-align: left;
     margin-left: 10%;
     color: #bf9663;
 }
-.cl-subtitulo{
+
+.cl-subtitulo {
     font-family: "Alumni Sans SC", sans-serif;
     color: #D97016;
-    margin-left: 10% ;
+    margin-left: 10%;
     text-align: left;
-    font-size: 270% ;
+    font-size: 270%;
 
 }
-.cl-corpo{
+
+.cl-corpo {
     margin-top: 0%;
     height: 4300px;
     width: 60%;
     background-color: #adadad;
     background-image: url("https://www.transparenttextures.com/patterns/absurdity.png");
 }
-div{
+
+div {
     overflow: hidden;
 }
+
 .container {
-  display: flex;
+    display: flex;
 }
-.alumni-sans-sc-uniquifier-1{
-  font-family: "Alumni Sans SC", sans-serif;
-  font-size: 400%;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  color: black;
-  margin-top: 8%;
-  margin-left: 10% ;
-  text-align: left;
-  margin-bottom: 0%;
+
+.alumni-sans-sc-uniquifier-1 {
+    font-family: "Alumni Sans SC", sans-serif;
+    font-size: 400%;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: black;
+    margin-top: 8%;
+    margin-left: 10%;
+    text-align: left;
+    margin-bottom: 0%;
 }
-hr{
-    border-bottom: 2px solid #000; 
+
+hr {
+    border-bottom: 2px solid #000;
     padding-bottom: 5px;
 }
-li{
+
+li {
     margin-top: 5px;
     margin-bottom: 5px;
     padding: 5px;
@@ -80,35 +94,40 @@ li{
     font-size: 150%;
 
 }
-#cursos{
+
+#cursos {
     margin-top: 5%;
 }
-.alumni-sans-sc-uniquifier-2{
-  font-family: "Alumni Sans SC", sans-serif;
-  font-size: 400%;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  color: black;
-  margin-top: 5%;
-  margin-left: 10% ;
-  text-align: left;
-  margin-bottom: 0%;
+
+.alumni-sans-sc-uniquifier-2 {
+    font-family: "Alumni Sans SC", sans-serif;
+    font-size: 400%;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: black;
+    margin-top: 5%;
+    margin-left: 10%;
+    text-align: left;
+    margin-bottom: 0%;
 }
-.cl-subtitulo2{
+
+.cl-subtitulo2 {
     font-family: "Alumni Sans SC", sans-serif;
     color: black;
-    margin-left: 10% ;
+    margin-left: 10%;
     text-align: left;
-    font-size: 270% ;
+    font-size: 270%;
 }
-.cl-img-prj{
-margin-left: 10%;
-border: solid 4px #D97016;
-display: block;
-margin-bottom: 10px;
+
+.cl-img-prj {
+    margin-left: 10%;
+    border: solid 4px #D97016;
+    display: block;
+    margin-bottom: 10px;
 }
-.CL-P2{
+
+.CL-P2 {
     font-family: "Alumni Sans SC", sans-serif;
     font-size: 150%;
     text-align: left;
