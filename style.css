@@ -10,7 +10,7 @@ body {
 .cl-lateral {
     background-color: black;
     text-align: center;
-    height: 4300px;
+    height: 4630px;
     width: 40%;
     padding-right: 8px;
 }
@@ -32,6 +32,8 @@ body {
     border: solid #D97016 4px;
     border-radius: 50%;
     width: 100%;
+    max-width: 80%;  
+    height: auto;
 }
 
 .CL-P {
@@ -53,7 +55,7 @@ body {
 
 .cl-corpo {
     margin-top: 0%;
-    height: 4300px;
+    height: 4630px;
     width: 60%;
     background-color: #adadad;
     background-image: url("https://www.transparenttextures.com/patterns/absurdity.png");
@@ -133,4 +135,40 @@ li {
     text-align: left;
     margin-left: 10%;
     color: black;
+}
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .cl-lateral {
+        width: 100%;
+        height: auto; 
+        padding: 16px;
+    }
+
+    .cl-corpo {
+        width: 100%;
+        height: auto; 
+        padding: 16px;
+        margin-right: 16px;
+    }
+    p{
+        margin-right: 20px;
+    }
+    .cl-img-prj {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        max-width: 90%;
+        height: auto;
+}
+}
+.cl-img-prj {
+    margin-left: 10%;
+    border: solid 4px #D97016;
+    display: block;
+    margin-bottom: 10px;
+    max-width: 80%; 
+    height: auto;
 }
