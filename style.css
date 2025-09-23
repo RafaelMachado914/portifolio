@@ -34,7 +34,7 @@ body {
     border: solid #D97016 4px;
     border-radius: 50%;
     width: 100%;
-    max-width: 80%;  
+    max-width: 80%;
     height: auto;
 }
 
@@ -68,7 +68,7 @@ div {
 }
 
 .container {
-    
+
     display: flex;
 }
 
@@ -139,6 +139,7 @@ li {
     margin-left: 10%;
     color: black;
 }
+
 @media (max-width: 600px) {
     .container {
         flex-direction: column;
@@ -146,32 +147,35 @@ li {
 
     .cl-lateral {
         width: 100%;
-        height: auto; 
+        height: auto;
         padding: 16px;
     }
 
     .cl-corpo {
         width: 100%;
-        height: auto; 
+        height: auto;
         padding: 16px;
         margin-right: 16px;
     }
-    p{
+
+    p {
         margin-right: 20px;
     }
+
     .cl-img-prj {
         margin-left: auto;
         margin-right: auto;
         display: block;
         max-width: 90%;
         height: auto;
+    }
 }
-}
+
 .cl-img-prj {
     margin-left: 10%;
     border: solid 4px #D97016;
     display: block;
     margin-bottom: 10px;
-    max-width: 80%; 
+    max-width: 80%;
     height: auto;
 }
