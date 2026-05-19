@@ -15,6 +15,17 @@
 </head>
 
 <body>
+    <header>
+        <nav>
+            <h1>Rafael Machado</h1>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#cursos">Cursos</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <div class="Dados">
 
@@ -31,25 +42,57 @@
                 <span>L</span>
             </h1>
             <p class="Descricao"> Desenvolvedor Java</p>
+            <button class="btn btn-outline-light"><a href="#contato">Entre em contato</a></button>
         </div>
+    </div>
+    <div class=" Sobre" id="sobre">
+        <h1 class="TituloSobre">Sobre mim</h1>
+        <p class="textsobre">Sou um programador de 22 anos, atualmente cursando ciência da computação no IFSC
+            Lages.
+            Tenho habilidades de
+            informática, programação, redes e uma grande variedade de cursos voltados
+            para programação web, informática e desenvolvimento de softwares </p>
+
     </div>
     <div class="Sobre">
-        <h1 class="TituloSobre">Sobre mim</h1>
-
+        <h1 class="TituloSobre" id="cursos">Cursos</h1>
+        <ul class="textcursos">
+            <li>CIÊNCIA DA COMPUTAÇÃO - IFSC - Cursando</li>
+            <li>CRIAÇÃO DE JOGOS 2D - Start Game Dev - Cursando</li>
+            <li>Git e GitHub - Plataforma Curso em video – Concluído em 05/2026</li>
+            <li>EXCEL BÁSICO 2016 - Fundação Bradesco - Concluído em 01/2023</li>
+            <li>MICROSOFT WORLD BÁSICO - Fundação Bradesco - concluído em 02/2023</li>
+            <li>MANUTENÇÃO E CONCERTO DE CELULARES - Udemy – Concluído em 02/2026</li>
+        </ul>
 
     </div>
-    <div class="Projetos">
-        <h1 class="TituloProjetos">Projetos</h1>
-
-        <div class="container mt-5">
-            <div class="row" id="cardsProjetos">
-
+    <h1 class="TituloProjetos" id="projetos">Projetos</h1>
+    <div class="container mt-4">
+        <div id="carouselProjetos" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner" id="cardsProjetos">
             </div>
 
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjetos" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselProjetos" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próximo</span>
+            </button>
         </div>
     </div>
-
+    <div class="Contato" id="contato">
+        <h1 class="TituloSobre">Contato</h1>
+        <ul class="textcursos">
+            <li><a href="mailto: rafael.2004.machado17@gmail.com">Email</a></li>
+            <li><a href="https://www.linkedin.com/in/rafael-machado-9a1b59262/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/RafaelMachado914" target="_blank">GitHub</a></li>
+        </ul>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
     <script src="./script.js"></script>
 </body>
 

@@ -1,6 +1,11 @@
 html body {
   background-color: #0b103d;
 }
+html {
+  background-color: #0b103d;
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
 
 .Dados {
   display: flex;
@@ -8,6 +13,7 @@ html body {
   gap: 50px;
   margin-top: 10%;
   margin-left: 20%;
+  margin-bottom: 15%;
 }
 
 .FotoPerfil {
@@ -79,7 +85,7 @@ h3 {
 
 .card {
   background-color: #111752;
-  color: white;
+  color: #ffffff;
   border: 1px solid #f001bc;
   box-shadow: 0 0 15px #f001bc50;
   transition: 0.3s;
@@ -94,16 +100,117 @@ h3 {
   border: none;
 }
 .Projetos {
-  margin-top: 10%;
-  margin-left: 8%;
+  text-align: center;
   color: #f001bc;
+  font-family: "M PLUS U", sans-serif;
 }
 .TituloSobre {
-  margin-top: 10%;
+  margin-top: 5%;
   margin-left: 8%;
   color: #f001bc;
   font-size: 50px;
+  font-family: "M PLUS U", sans-serif;
 }
 .TituloProjetos {
+  margin-top: 5%;
+  margin-left: 8%;
+  color: #f001bc;
   font-size: 50px;
+  font-family: "M PLUS U", sans-serif;
+}
+.textsobre {
+  margin-top: 20px;
+  margin-left: 8%;
+  margin-right: 8%;
+  color: #fffafe;
+  font-family: "M PLUS U", sans-serif;
+  margin-bottom: 0%;
+}
+.textcursos {
+  margin-top: 20px;
+  margin-left: 8%;
+  margin-right: 8%;
+  color: #fffafe;
+  font-family: "M PLUS U", sans-serif;
+}
+li {
+  padding: 5px;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #0b103d;
+  color: white;
+  transition: 0.4s;
+  padding-top: 90px; /* evita o header sobrepor conteúdo */
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+
+  padding: 20px 10%;
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+
+  border-bottom: 1px solid #f001bc50;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1 {
+  color: #f001bc;
+  font-size: 28px;
+  font-family: "M PLUS U", sans-serif;
+}
+
+nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  transition: 0.3s;
+  font-family: "M PLUS U", sans-serif;
+}
+
+nav a:hover {
+  color: #f001bc;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  transition: 0.3s;
+  font-family: "M PLUS U", sans-serif;
 }
