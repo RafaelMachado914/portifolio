@@ -1,181 +1,109 @@
-html {
-    height: 100%;
-    margin: 0%;
+html body {
+  background-color: #0b103d;
 }
 
-body {
-    margin: 0%;
-    height: 100%;
-    background-color: black;
+.Dados {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-top: 10%;
+  margin-left: 20%;
 }
 
-.cl-lateral {
-    background-color: black;
-    text-align: center;
-    height: 5400px;
-    width: 40%;
-    padding-right: 8px;
+.FotoPerfil {
+  border-radius: 50%;
+  box-shadow: 0 0 40px #f001bc;
+  transition: 0.3s;
 }
 
-.alumni-sans-sc-uniquifier {
-    font-family: "Alumni Sans SC", sans-serif;
-    font-size: 400%;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    color: #bf9663;
-    margin-left: 10%;
-    text-align: left;
+.FotoPerfil:hover {
+  transform: scale(1.05);
 }
 
-.cl-minha-foto {
-    Text-align: center;
-    margin-top: 10%;
-    border: solid #D97016 4px;
-    border-radius: 50%;
-    width: 100%;
-    max-width: 80%;
-    height: auto;
+.Info {
+  display: flex;
+  flex-direction: column;
 }
 
-.CL-P {
-    font-family: "Alumni Sans SC", sans-serif;
-    font-size: 150%;
-    text-align: left;
-    margin-left: 10%;
-    color: #bf9663;
+.Nome {
+  color: #f001bc;
+  margin: 0;
+  font-size: 30px;
 }
 
-.cl-subtitulo {
-    font-family: "Alumni Sans SC", sans-serif;
-    color: #D97016;
-    margin-left: 10%;
-    text-align: left;
-    font-size: 270%;
-
+.Descricao {
+  color: #fffafe;
+  font-family: "M PLUS U", sans-serif;
+  margin-top: 0px;
 }
 
-.cl-corpo {
-    margin-top: 0%;
-    height: 5400px;
-    width: 60%;
-    background-color: #adadad;
-    background-image: url("https://www.transparenttextures.com/patterns/absurdity.png");
+span {
+  position: relative;
+  font-family: "M PLUS U", sans-serif;
+  font-size: 50px;
+  top: 2px;
+  display: inline-block;
+  animation: bounce 0.4s ease infinite alternate;
 }
 
-div {
-    overflow: hidden;
+h1 span:nth-child(2) {
+  animation-delay: 0.1s;
 }
 
-.container {
-
-    display: flex;
+h1 span:nth-child(3) {
+  animation-delay: 0.2s;
 }
 
-.alumni-sans-sc-uniquifier-1 {
-    font-family: "Alumni Sans SC", sans-serif;
-    font-size: 400%;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    color: black;
-    margin-top: 8%;
-    margin-left: 10%;
-    text-align: left;
-    margin-bottom: 0%;
+h1 span:nth-child(4) {
+  animation-delay: 0.3s;
 }
 
-hr {
-    border-bottom: 2px solid #000;
-    padding-bottom: 5px;
+h1 span:nth-child(5) {
+  animation-delay: 0.4s;
 }
 
-li {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    padding: 5px;
-    margin-left: 10%;
-    font-family: "Alumni Sans SC", sans-serif;
-    font-size: 150%;
-
+h1 span:nth-child(6) {
+  animation-delay: 0.5s;
 }
 
-#cursos {
-    margin-top: 5%;
+@keyframes bounce {
+  100% {
+    top: -2px;
+  }
+}
+h3 {
+  margin-top: 0%;
+  color: #f001bc;
+  font-family: "M PLUS U", sans-serif;
 }
 
-.alumni-sans-sc-uniquifier-2 {
-    font-family: "Alumni Sans SC", sans-serif;
-    font-size: 400%;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    color: black;
-    margin-top: 5%;
-    margin-left: 10%;
-    text-align: left;
-    margin-bottom: 0%;
+.card {
+  background-color: #111752;
+  color: white;
+  border: 1px solid #f001bc;
+  box-shadow: 0 0 15px #f001bc50;
+  transition: 0.3s;
 }
 
-.cl-subtitulo2 {
-    font-family: "Alumni Sans SC", sans-serif;
-    color: black;
-    margin-left: 10%;
-    text-align: left;
-    font-size: 270%;
+.card:hover {
+  transform: scale(1.03);
 }
 
-.cl-img-prj {
-    margin-left: 10%;
-    border: solid 4px #D97016;
-    display: block;
-    margin-bottom: 10px;
+.btn-primary {
+  background-color: #f001bc;
+  border: none;
 }
-
-.CL-P2 {
-    font-family: "Alumni Sans SC", sans-serif;
-    font-size: 150%;
-    text-align: left;
-    margin-left: 10%;
-    color: black;
+.Projetos {
+  margin-top: 10%;
+  margin-left: 8%;
+  color: #f001bc;
 }
-
-@media (max-width: 600px) {
-    .container {
-        flex-direction: column;
-    }
-
-    .cl-lateral {
-        width: 100%;
-        height: auto;
-        padding: 16px;
-    }
-
-    .cl-corpo {
-        width: 100%;
-        height: auto;
-        padding: 16px;
-        margin-right: 16px;
-    }
-
-    p {
-        margin-right: 20px;
-    }
-
-    .cl-img-prj {
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-        max-width: 90%;
-        height: auto;
-    }
+.TituloSobre {
+  margin-top: 10%;
+  margin-left: 8%;
+  color: #f001bc;
+  font-size: 50px;
 }
-
-.cl-img-prj {
-    margin-left: 10%;
-    border: solid 4px #D97016;
-    display: block;
-    margin-bottom: 10px;
-    max-width: 80%;
-    height: auto;
+.TituloProjetos {
+  font-size: 50px;
 }

@@ -1,0 +1,44 @@
+[
+  {
+    "nome": "Chat multicast",
+    "descricao": "Chat local utilizando o protocolo UDP, desenvolvido em Python. O projeto permite a comunicação entre maquinas na mesma rede local.",
+    "imagem": "./imagens/Chat.png",
+    "link": "https://github.com/RafaelMachado914/MultChat-Local"
+  },
+  {
+    "nome": "Pizzaria",
+    "descricao": "Sistema de pedidos para uma pizzaria, desenvolvido em Java. O projeto permite escolher o tipo de pizza e entrega, e imprime o cupom do pedido ",
+    "imagem": "./imagens/Pizzaria.png",
+    "link": "https://github.com/RafaelMachado914/SistemaPizzaria"
+  },
+  {
+    "nome": "Dagon",
+    "descricao": "Jogo de cartas feito em java inspirado nos contos de H.P. Lovecraft.",
+    "imagem": "./imagens/dagon.png",
+    "link": "https://github.com/RafaelMachado914/Dagon"
+  },
+  {
+    "nome": "RPG por turno",
+    "descricao": "Um sistema de batalha por turno desenvolvido em Java. O projeto recria o sistema de batalha em jogos como pokemon, final fantasy entre outros",
+    "imagem": "./imagens/Rpg.png",
+    "link": "https://github.com/RafaelMachado914/Combate_Por_Turno_Java"
+  },
+  {
+    "nome": "Geek Quiz",
+    "descricao": "Quiz de perguntas e respostas do universo nerd feito em html e css. ",
+    "imagem": "./imagens/geek.png",
+    "link": "https://rafaelmachado914.github.io/QuizGeek/"
+  },
+  {
+    "nome": "ficheiro",
+    "descricao": "Ficha de RPG de mesa para marcar as informações do personagem, possui sistema para rolar dados e testar a sorte.",
+    "imagem": "./imagens/ficha.png",
+    "link": "https://rafaelmachado914.github.io/Ficheiro_RPG/"
+  },
+  {
+    "nome": "Jogo da velha",
+    "descricao": "Jogo da velha implementado em Java para dois jogadores, o projeto avisa o ganhador e parca a pontuação",
+    "imagem": "./imagens/jogoVelha.png",
+    "link": "https://github.com/RafaelMachado914/JogoDaVelha"
+  }
+]
