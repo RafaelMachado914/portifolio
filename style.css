@@ -214,3 +214,78 @@ a {
   transition: 0.3s;
   font-family: "M PLUS U", sans-serif;
 }
+@media (max-width: 768px) {
+
+  header {
+    padding: 15px 5%;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  nav h1 {
+    font-size: 24px;
+  }
+
+  .Dados {
+    flex-direction: column;
+    margin-left: 0;
+    margin-top: 40%;
+    text-align: center;
+    gap: 30px;
+    padding: 0 20px;
+  }
+
+  .FotoPerfil {
+    width: 220px;
+    height: 220px;
+  }
+
+  .Info {
+    align-items: center;
+  }
+
+  span {
+    font-size: 38px;
+  }
+
+  .Descricao {
+    font-size: 18px;
+  }
+
+  .TituloSobre,
+  .TituloProjetos {
+    font-size: 36px;
+    margin-left: 5%;
+  }
+
+  .textsobre,
+  .textcursos {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 16px;
+  }
+
+  .carousel-item .row {
+    padding: 0 10px !important;
+  }
+
+  .card {
+    margin: auto;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 10%;
+  }
+
+}
