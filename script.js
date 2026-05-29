@@ -2,7 +2,7 @@ fetch("./Projetos/projetos.json")
   .then((response) => response.json())
   .then((projetos) => {
     const container = document.getElementById("cardsProjetos");
-    const itensPorSlide = 3;
+    const itensPorSlide = window.innerWidth <= 768 ? 1 : 3;
     let htmlContent = "";
 
     for (let i = 0; i < projetos.length; i += itensPorSlide) {
