@@ -38,7 +38,7 @@
   {
     "nome": "Jogo da velha",
     "descricao": "Jogo da velha implementado em Java para dois jogadores, o projeto avisa o ganhador e parca a pontuação",
-    "imagem": "./imagens/jogoVelha.png",
+    "imagem": "./imagens/JogoVelha.png",
     "link": "https://github.com/RafaelMachado914/JogoDaVelha"
   }
 ]
