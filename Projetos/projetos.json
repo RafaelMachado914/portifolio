@@ -24,6 +24,12 @@
     "link": "https://github.com/RafaelMachado914/Combate_Por_Turno_Java"
   },
   {
+    "nome": "Gerenciamento de estoque",
+    "descricao": "Um sistema de estoque desenvolvido em Java. O projeto cria um sistema de estoque de produtos com a opçaõ de adicionar, remover e atualizar itens",
+    "imagem": "./imagens/gerenciamento.png",
+    "link": "https://github.com/RafaelMachado914/Gerenciamento_De_Estoque"
+  },
+  {
     "nome": "Geek Quiz",
     "descricao": "Quiz de perguntas e respostas do universo nerd feito em html e css. ",
     "imagem": "./imagens/geek.png",
